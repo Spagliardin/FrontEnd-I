@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+aside{
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    background: #1CD1B0;
+    top: 0;
+    float: left;
+    z-index: 20;
+}
+.descuentos{
+    position: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 3px 17px;
+    color: #000000;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    margin-top: -2vh;
+    float: left;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 20;
+}
+h1{
+    position: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5vh;
+    width: 100%;
+    margin: 20px 15px;
+    line-height: 2px;
+    color: #FFFFFF;
+}
+
+/*Tarjetas*/
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.T1{
+    margin-top: 40px;
+    position: relative;
+}
+.T2{
+    margin-top: -200px;
+    position: relative;
+}
+.T3{
+    margin-top: -200px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+/*Logos*/
+div.logo {
+    position: relative;
+    width: 115px;
+    height: 115px;
+    left: 730px;
+    top: -75px;
+    border-radius: 100%;
+    z-index: 10;
+}
+div.Batman {
+    background-image: url(../img/batman.jpg);
+    background-size: cover;
+    background-position: -68px;
+}
+div.Maravilla{
+    background-image: url(../img/wonderw.jpg);
+    background-size: cover;
+    background-position: -40px; 
+}
+div.Superman{
+    background-image: url(../img/superman.jpg);
+    background-size: cover;
+    background-position: -23px; 
+}
+/*Corazon*/
+.fa-heart {
+    position: relative;
+    z-index: 15;
+    color: red;
+    padding: 30px;
+    left: 580px;
+    top: 65px;
+}
+/*Banner*/
+div.banner {
+    position: relative;
+    width: 400px;
+    height: 170px;
+    left: 590px;
+    border-radius: 4vh;
+    margin: 0;
+}
+div.B{
+    background-image: url(../img/bg-batman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.M{
+    background-image: url(../img/bg-wonderw.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.S{
+    background-image: url(../img/bg-superman.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Textos*/
+h2{
+    position: relative;
+    bottom: 50px;
+    margin:0;
+    z-index: 15;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+.texto{
+    position: relative;
+    width:400px;
+    height: 430px;
+    text-align: center;
+    left: 590px;
+    top: -180px;
+    padding: 150px 35px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #333333;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Ver mas*/
+.vermas{
+    position: relative;
+    Left: 705px;
+    bottom: 265px;
+    height: 60px;
+    width: 170px;
+    background: #00669F;
+    border-radius: 7px;
+    border: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #F3F3F3;
+    z-index: 15;
+}
+
+/*Boton*/
+.circle {
+    position: fixed;
+    width: 9vh;
+    height: 9vh;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 100%;
+    border: transparent;
+    background: #00669F;
+    z-index: 15;
+}
+#mas{
+    position: absolute;
+    color: white;
+    left: 22px;
+    top: -42px;
+    font-family: 'Roboto';
+    font-size: 47px;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    border-radius: 20px;    
+}
+
+/*footer*/
+.footer{
+    position: relative;
+    width: 100%;
+    height: 60px; 
+    bottom: 0;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.derechos{
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+    color: #FFF9F9;
+}
+.github{
+    position: absolute;
+    width: 130px;
+    right: 11px;
+    bottom: 11px;
+}

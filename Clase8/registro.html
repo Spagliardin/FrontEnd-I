@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styleregistro.css">
+</head>
+<body>
+    <aside>
+        <p class="descuento">20% de descuento en todos los productos!</p>
+    </aside>
+    <header>
+        <div class="img"></div>
+        <h1>Nombre Tienda</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Registro</h2>
+            <form action="" method="POST">
+                <label for="nombre"></label> 
+                <input class="input-box" type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
+                <br>
+                <label for="correo"></label> 
+                <input class="input-box" type="email" name="correo" id="correo" placeholder="Correo Electrónico" required>
+                <br>
+                <label for="password"></label> 
+                <input class="input-box" type="password" name="password" id="password" placeholder="Contraseña" required>
+                <br>
+                <label for="pais"></label> 
+                <select class="input-box" name="pais" id="pais" required>
+                    <option class="input-box" disabled selected hidden>País</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Brasil">Brasil</option>
+                </select>
+                <br>
+                <label for="reset"></label> 
+                <input type="reset" name="reset" id="reset" value="Resetear">
+                <label for="button"></label> 
+                <input type="submit" name="button" id="button" value="Enviar">
+            </form>
+            <p class="texto">¿Ya tenés una cuenta? <a class="registro" href="./login.html">Ingresar</a></p>
+        </article>
+    </main>
+    <footer>
+        <p class="footer">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

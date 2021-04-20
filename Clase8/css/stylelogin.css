@@ -75,7 +75,6 @@ h2{
 }
 ::placeholder{
     color: black;
-    text-indent: 10px;
 }
 #usuario, #password{
     width: 100%;
@@ -84,6 +83,7 @@ h2{
     color: black;
     font: "Karla";
     font-size: 15px;
+    text-indent: 10px;
 }
 #button{
     width: 100%;

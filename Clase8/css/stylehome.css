@@ -61,13 +61,12 @@ h1{
     height: 30px;
     top: 100px;
     right: 0%;
-    background: #001D2D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .link{
     padding: 0px 20px;
     text-align: right;
-    width: 100%
+    width: 100%;
 }
 a{
     font-family: "Roboto";
@@ -188,6 +187,25 @@ h2{
     font-weight: normal;
     font-size: 15px;
     text-align: center;
+}
+#boton{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+    margin-top: -320px;
+    border-radius: 100%;
+    border: none;
+    background: #00669F;
+}
+.mas{
+    position: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    color: #FFFFFF;
+    bottom: 5px;
 }
 
 /*Footer*/

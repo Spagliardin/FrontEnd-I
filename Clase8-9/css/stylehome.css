@@ -189,14 +189,16 @@ h2{
     text-align: center;
 }
 #boton{
-    position: absolute;
+    position: fixed;
     width: 60px;
     height: 60px;
-    right: 10px;
     margin-top: -320px;
     border-radius: 100%;
     border: none;
     background: #00669F;
+    bottom: 45%;
+    right: 1%;
+    z-index: 10;
 }
 .mas{
     position: relative;
@@ -210,7 +212,7 @@ h2{
 
 /*Footer*/
 footer{
-    position: relative;
+
     width: 100%;
     height: 61px;
     bottom: 0;
@@ -221,6 +223,7 @@ footer{
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
+    width: 100%;
     font-size: 16px;
     line-height: 60px;
     text-align: center;

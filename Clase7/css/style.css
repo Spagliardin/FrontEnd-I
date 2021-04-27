@@ -108,6 +108,9 @@ div.banner {
     border-radius: 4vh;
     margin: 0;
 }
+
+/* Intenta siempre usar nombres representativos para las clases, en el siguiente caso podria ser ".background_superman" ----> */
+
 div.B{
     background-image: url(../img/bg-batman.jpg);
     background-size: cover;
